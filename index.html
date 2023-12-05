@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <div class="topnav">
+        <h2>Aromatic Garden Essence</h2> 
+    </div>
+    <img src="image1.jpg" alt="image of skin care">
+    <h3> How it works</h3>
+    <p>AGE is a seif made brand. and it is very organic and 
+        you can get our recommendation of the product just by 
+        answering few of our quetions.</p>
+        <h3> Skin Type Selection</h3>
+
+        <label>
+            <input type="radio" name="skinType" value="normal" onclick="showRecommendations('normal')"> Normal Skin  
+        </label>
+        <label>
+            <input type="radio" name="skinType" value="oily" onclick="showRecommendations('oily')"> Oily Skin  
+        </label>
+        <label>
+            <input type="radio" name="skinType" value=" dry" onclick="showRecommendations('dry')"> Dry Skin  
+        </label>
+       <h3> Recommendation</h3>
+        <p id="recommendationsParagraph"></p>
+
+    <div id="basket">
+      <h3>Basket</h3>
+      <button onclick="addToBasket()">Add All to Basket</button>
+      <ul id="basketList"></ul>
+    </div>
+    
+
+    <div class="social-media">
+        <p>Follow us on social media:</p>
+        <img src="image13.jpg" alt="Facebook Logo" class="image">
+        <img src="image14.jpg" alt="Instagram Logo" class="image">
+        <img src="image15.jpg" alt="Twitter Logo" class="image">
+        <img src="image16.jpg" alt="Contact Icon" class="image">
+    </div>
+
+        <div class="footer">
+            <img src="image12.jpg" alt="Your Logo">
+        </div>
+
+ <script src="script.js" >
+ </script> 
+ </div> 
+</body>
+</html>

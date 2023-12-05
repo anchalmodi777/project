@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(227, 217, 204);
+}
+img{
+    width: 290px;
+    height: 150px;
+}
+
+#basketList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Add this CSS to style the added items */
+#basketList li {
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+.footer {
+    text-align: center; /* Adjust as needed */
+    margin-top: 20px;  
+    height: 50px;
+    width: 5px;
+}
+
+.image{
+    width: 20px;
+    height: 15px;
+}
