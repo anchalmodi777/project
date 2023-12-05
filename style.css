@@ -1,11 +1,17 @@
 body{
     background-color: rgb(227, 217, 204);
+    margin: 0;
 }
 img{
     width: 290px;
     height: 150px;
+    object-fit: contain;
 }
 
+h2{
+    margin: 0;
+
+}
 #basketList {
     list-style-type: none;
     padding: 0;
@@ -17,14 +23,28 @@ img{
     margin-bottom: 5px; /* Adjust as needed */
 }
 
+.content{
+    padding: 16px;
+}
 .footer {
     text-align: center; /* Adjust as needed */
     margin-top: 20px;  
-    height: 50px;
-    width: 5px;
+    
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%
 }
 
 .image{
     width: 20px;
     height: 15px;
+}
+
+.topnav {
+    background-image: url("image1.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
